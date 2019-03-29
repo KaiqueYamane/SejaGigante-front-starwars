@@ -1,0 +1,49 @@
+.film-list {
+    max-width: 90%;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.film-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.film-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.film-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #ffcb07;
+    background: none;
+    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.film-list article a:hover{
+    background: #ffcb07;
+    color: #fff;
+}
+
+.film-list strong {
+    font-weight: bold;
+    font-size: 25px;
+}

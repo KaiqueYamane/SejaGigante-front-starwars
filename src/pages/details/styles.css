@@ -1,0 +1,19 @@
+.film-info {
+    max-width: 90%;
+    margin: 20px auto 0;
+    padding: 0 40px;
+    border-radius: 5px;
+    background: #ddd;
+    border: 1px solid #000;
+}
+
+.film-info h1{
+    font-size: 32px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.film-info p {
+    color: #000;
+}

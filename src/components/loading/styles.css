@@ -1,0 +1,9 @@
+.overlay-content{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.wrapper{
+    margin-top: 10%;
+}
